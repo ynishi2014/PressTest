@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					2A6AA8EE1BA17D0F008CBAB8 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GN82DBBMKQ;
 					};
 					2A6AA9071BA17D0F008CBAB8 = {
 						CreatedOnToolsVersion = 7.0;
@@ -413,10 +414,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PressTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tatsuno-system.PressTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PressTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tatsuno-system.PressTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +507,7 @@
 				2A6AA91E1BA17D0F008CBAB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A6AA91F1BA17D0F008CBAB8 /* Build configuration list for PBXNativeTarget "PressTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				2A6AA9211BA17D0F008CBAB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A6AA9221BA17D0F008CBAB8 /* Build configuration list for PBXNativeTarget "PressTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				2A6AA9241BA17D0F008CBAB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
